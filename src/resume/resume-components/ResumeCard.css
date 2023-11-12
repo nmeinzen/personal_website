@@ -1,0 +1,61 @@
+/* Updated JobCard.css with provided colors for a modern and professional look */
+
+.job-card {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccd5c4; /* Use the lighter green as the border color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ede3d9; /* Use the lightest beige as the background color */
+}
+
+.left-column,
+.right-column {
+  width: 100%;
+}
+
+.divider {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .job-card {
+    flex-direction: row;
+    width: 60%;
+  }
+
+  .left-column {
+    flex: 0.4;
+  }
+
+  .right-column {
+    flex: 0.6;
+  }
+
+  .divider {
+    display: block;
+    border-left: 1px solid #ccd5c4;
+    margin: 0 20px;
+  }
+}
+
+h3,
+p,
+.highlight {
+  color: #1c2915; /* Use the dark green for text */
+}
+
+.company,
+.date-range {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #727a6b; /* Use the olive color for company and date */
+}
+
+.accomplishments li {
+  margin-bottom: 10px;
+  color: #1c2915; /* Use the dark green for list items */
+}

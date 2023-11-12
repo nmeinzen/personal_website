@@ -1,0 +1,16 @@
+.about-me-paragraph {
+  font-family: Poppins;
+}
+
+.headshot-photo {
+  border-radius: 50%;
+}
+
+.about-me-title {
+  font-family: Poppins;
+  text-align: center;
+}
+
+.outer-container {
+  padding: 32px;
+}
