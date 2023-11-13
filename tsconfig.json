@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "module": "ESNext",
+        "sourceMap": true,
+        "inlineSourceMap": true,
+        "strict": false,
+        "moduleResolution": "node",
+        "types": ["node", "jest"],
+        "typeRoots": ["src/typings", "node_modules/@types"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "jsx": "react",
+    },
+    "include": ["src"]
+}

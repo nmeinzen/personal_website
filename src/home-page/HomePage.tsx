@@ -1,6 +1,6 @@
 import "./HomePage.css";
-import { Header } from "./../header/Header.tsx";
-import { Button } from "./../components/Button.tsx";
+import { Header } from "./../header/Header";
+import { Button } from "./../components/Button";
 import { Link } from "react-router-dom";
 import React from 'react';
 

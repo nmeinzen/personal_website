@@ -1,8 +1,8 @@
-import { Header } from "../header/Header.tsx";
+import { Header } from "../header/Header";
 import resume from "./Natasha_Meinzen_Resume.pdf";
-import { Button } from "../components/Button.tsx";
+import { Button } from "../components/Button";
 import "./Resume.css";
-import ExamplePDFViewer from "./pdf-viewer.tsx";
+import ExamplePDFViewer from "./pdf-viewer";
 import React from 'react';
 
 

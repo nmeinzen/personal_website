@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from "../header/Header.tsx";
+import { Header } from "../header/Header";
 import "./AboutMe.css";
 import headshot from "../images/headshot.jpg";
 
