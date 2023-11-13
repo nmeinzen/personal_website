@@ -1,4 +1,6 @@
-import { Header } from "../header/Header";
+import { Header } from "../header/Header.tsx";
+import React from 'react';
+
 
 export const Projects = () => {
   return (

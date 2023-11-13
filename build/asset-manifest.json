@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e472dd6.css",
+    "main.js": "/static/js/main.c407d917.js",
+    "static/media/Natasha_Meinzen_Resume.pdf": "/static/media/Natasha_Meinzen_Resume.65963b34fb1af16e08d1.pdf",
+    "index.html": "/index.html",
+    "main.7e472dd6.css.map": "/static/css/main.7e472dd6.css.map",
+    "main.c407d917.js.map": "/static/js/main.c407d917.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e472dd6.css",
+    "static/js/main.c407d917.js"
+  ]
+}

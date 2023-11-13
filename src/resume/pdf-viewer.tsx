@@ -1,5 +1,7 @@
 import FileViewer from "react-file-viewer";
-import pdf_url from "../../Natasha_Meinzen_Resume.pdf";
+import pdf_url from "./Natasha_Meinzen_Resume.pdf";
+import React from 'react';
+
 
 const ExamplePDFViewer = () => {
   return <FileViewer fileType="pdf" filePath={pdf_url} />;

@@ -1,12 +1,10 @@
-import { ResumeCard } from "../components/ResumeCard";
-import { Header } from "../header/Header";
-import { Awards } from "./resume-components/Awards";
-import { ContactInfo } from "./resume-components/Contact";
-import { Skills } from "./resume-components/Skills";
-import { resume } from "../../Natasha_Meinzen_Resume.pdf";
-import { Button } from "../components/Button";
+import { Header } from "../header/Header.tsx";
+import resume from "./Natasha_Meinzen_Resume.pdf";
+import { Button } from "../components/Button.tsx";
 import "./Resume.css";
-import ExamplePDFViewer from "./pdf-viewer";
+import ExamplePDFViewer from "./pdf-viewer.tsx";
+import React from 'react';
+
 
 // const jobExperience1 = {
 //   company: "Vanguard Group Europe GmbH, Berlin, DE",

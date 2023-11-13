@@ -1,4 +1,6 @@
 import "./Awards.css";
+import React from 'react';
+
 
 export const Awards = ({ awards }) => {
   return (

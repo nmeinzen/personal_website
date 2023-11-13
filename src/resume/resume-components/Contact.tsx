@@ -1,4 +1,6 @@
 import "./Contact.css";
+import React from 'react';
+
 
 export const ContactInfo = ({ name, address, phone, email }) => {
   return (

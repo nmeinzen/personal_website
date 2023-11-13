@@ -1,4 +1,6 @@
 import "./ResumeCard.css";
+import React from 'react';
+
 
 export const ResumeCard = (experience) => {
   return (

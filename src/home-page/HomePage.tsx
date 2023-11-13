@@ -1,7 +1,9 @@
 import "./HomePage.css";
-import { Header } from "./../header/Header";
-import { Button } from "./../components/Button";
+import { Header } from "./../header/Header.tsx";
+import { Button } from "./../components/Button.tsx";
 import { Link } from "react-router-dom";
+import React from 'react';
+
 
 export const HomePage = () => {
   return (

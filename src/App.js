@@ -1,9 +1,10 @@
 import "./styles.css";
-import { HomePage } from "./home-page/HomePage";
+import { HomePage } from "./home-page/HomePage.tsx";
 import { Route, Routes } from "react-router-dom";
-import { AboutMe } from "./about-me/AboutMe";
-import { Resume } from "./resume/Resume";
-import { Projects } from "./projects/Projects";
+import { AboutMe } from "./about-me/AboutMe.tsx";
+import { Resume } from "./resume/Resume.tsx";
+import { Projects } from "./projects/Projects.tsx";
+import React from 'react'
 
 export default function App() {
   return (
