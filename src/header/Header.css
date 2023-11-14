@@ -17,7 +17,7 @@
 }
 
 /* Hamburger menu styles */
-.hamburger-menu {
+.mobile-menu {
   display: none;
   cursor: pointer;
   font-size: 1.5em;
@@ -46,7 +46,7 @@
     margin: 10px 0;
   }
 
-  .hamburger-menu {
+  .mobile-menu {
     display: block;
   }
 }

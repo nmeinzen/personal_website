@@ -16,9 +16,9 @@ export const Header = () => {
 
   return (
     <>
-     <div className="hamburger-menu" onClick={toggleMenu}>
-        &#9776; {/* Hamburger icon */}
-        <MobileMenu></MobileMenu>
+    <div className="mobile-menu">
+      <MobileMenu></MobileMenu>
+
       </div>
       <ul className="nav justify-content-center">
         <li className="nav-item">

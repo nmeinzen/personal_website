@@ -1,12 +1,9 @@
 {
     "compilerOptions": {
         "target": "ES6",
-        "emitDecoratorMetadata": true,
         "esModuleInterop": true,
         "importHelpers": true,
         "module": "ESNext",
-        "sourceMap": true,
-        "inlineSourceMap": true,
         "strict": false,
         "moduleResolution": "node",
         "types": ["node", "jest"],
