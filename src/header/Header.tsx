@@ -3,21 +3,22 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import React, { useState } from 'react';
 import { MobileMenu } from "./MobileMenu";
+import Hamburger from 'hamburger-react'
+
 
 
 export const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isOpen, setOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
-  const isActive = isMenuOpen ? ' active' : '';
+  const isActive = 'active';
 
   return (
     <>
     <div className="mobile-menu">
-      <MobileMenu></MobileMenu>
+    <Hamburger toggled={isOpen} toggle={setOpen} />
+
+      <MobileMenu isOpen={isOpen}></MobileMenu>
 
       </div>
       <ul className="nav justify-content-center">

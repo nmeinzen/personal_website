@@ -12,6 +12,9 @@
 
 .intro_name,
 .story_header {
+  @media only screen and (max-width: 500px) {
+    font-size: 75px;
+  }
   color: transparent;
   font-family: Poppins;
   font-weight: bold;
@@ -29,9 +32,14 @@
 }
 
 .description {
-  display: flex;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+  display: inline-block;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  
 }
 
 .description_phrase {
@@ -43,10 +51,14 @@
   font-family: Lora;
   font-size: 24px;
   height: 40px;
+  text-align: center;
 }
 
 /* Scroller styling */
 .description_scroller {
+  @media only screen and (max-width: 500px) {
+    font-size: 20px;
+  }
   height: 40px;
   line-height: 40px;
   position: relative;
