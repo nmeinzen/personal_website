@@ -3,7 +3,8 @@ import { routes } from '../routes';
 
 
 
-export const MobileMenu = (isOpen) => {
+export const MobileMenu = ({isOpen, onNavClick}) => {
+
     return(
         <>
         {isOpen && (
@@ -16,9 +17,7 @@ export const MobileMenu = (isOpen) => {
                       className="w-full p-[0.08rem] rounded-xl bg-gradient-to-tr from-neutral-800 via-neutral-950 to-neutral-700"
                     >
                       <a
-                        className={
-                          "flex items-center justify-between w-full p-5 rounded-xl bg-neutral-950"
-                        }
+                        onClick={onNavClick}
                         href={route.href}
                       >
                         <span className="flex gap-1 text-lg">{route.title}</span>

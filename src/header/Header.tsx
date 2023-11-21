@@ -12,13 +12,13 @@ export const Header = () => {
 
 
   const isActive = 'active';
-
+  
   return (
     <>
     <div className="mobile-menu">
     <Hamburger toggled={isOpen} toggle={setOpen} />
 
-      <MobileMenu isOpen={isOpen}></MobileMenu>
+      <MobileMenu isOpen={isOpen} onNavClick={() => setOpen(false)}></MobileMenu>
 
       </div>
       <ul className="nav justify-content-center">
