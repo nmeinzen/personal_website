@@ -1,4 +1,4 @@
-# Natashas's Personal Website
+# Natasha's Personal Website
 
 Welcome to my personal website! This space serves as a showcase of my skills and experiences as a React software developer. This website was created using create-react-app, developed on Github Codespaces, and hosted on AWS S3. 
 
